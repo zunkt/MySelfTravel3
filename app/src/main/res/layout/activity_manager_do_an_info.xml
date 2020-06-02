@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="270dp">
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/img_doan" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TextView
+                android:layout_weight="9.2"
+                android:text="ID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_manage_admin_idDoAn" />
+            <ImageButton
+                android:id="@+id/image_btn_delete"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="Tên"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_manage_admin_tenDoAn" />
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="Địa Chỉ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_manage_admin_diachi" />
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="Giá Cả"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_manage_admin_giaca" />
+
+        <Button
+            android:text="ADD"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_manage_admin_adddoan" />
+
+        <Button
+            android:text="EDIT"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_manage_admin_suadoan" />
+        <Button
+            android:textStyle="bold"
+            android:text="Delte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_manage_admin_deleteDoAn" />
+    </LinearLayout>
+</LinearLayout>

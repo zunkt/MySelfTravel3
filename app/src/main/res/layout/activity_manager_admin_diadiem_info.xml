@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="270dp">
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/img_manage_menu" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TextView
+                android:layout_weight="9.2"
+                android:text="ID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_manage_admin_idDiaDiem" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="Tên"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_manage_admin_tenDiaDiem" />
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="PhuongTienDiToi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_manage_admin_phuongtienditoi" />
+
+        <Button
+            android:textStyle="bold"
+            android:text="Do An Dac San"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_manage_admin_DoAn" />
+
+        <Button
+            android:textStyle="bold"
+            android:text="ADD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_manage_admin_ADD" />
+
+        <Button
+            android:text="EDIT"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_manage_admin_sua" />
+
+
+        <Button
+            android:textStyle="bold"
+            android:text="Delte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_manage_admin_Delete" />
+    </LinearLayout>
+</LinearLayout>

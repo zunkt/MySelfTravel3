@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myselftravel3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ManagerAdmin.DoAn.Manager_AddDoAn"></activity>
+        <activity android:name=".AccountUser.AdapaterManagerUser" />
+        <activity android:name=".ManagerAdmin.DoAn.AdapterManagerDoAn" />
+        <activity android:name=".ManagerAdmin.DoAn.ManagerAdminActivity_DoAn" />
+        <activity android:name=".AccountUser.Activity_account_user" />
+        <activity android:name=".ManagerAdmin.Activity_Admin_Menu" />
+        <activity android:name=".Login.SignUp" />
+        <activity android:name=".ManagerAdmin.DiaDiem.Manager_AddDiaDiem" />
+        <activity android:name=".ManagerAdmin.DoAn.ManagerAdminActivity_DoAn" />
+        <activity android:name=".ManagerAdmin.DiaDiem.ManagerAdminActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
